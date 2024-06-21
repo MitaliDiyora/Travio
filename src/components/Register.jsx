@@ -71,9 +71,9 @@ const Register = () => {
                             <label htmlFor="">I accept <Link>terms</Link> and <Link>conditions</Link> and general policy</label>
                         </div>
 
-                        <div className="submit-button">
-                            <input type="submit" value="Sign Up" className='theme-btn' />
-                        </div>
+                  <div className="message-btn">
+                      <button type="submit" className="theme-btn"><Link to="/">Submit</Link></button>
+                    </div>
                     </form>
                     <p>
                         Already have an account? <Link to=''>Sign In</Link>
