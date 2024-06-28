@@ -2637,34 +2637,34 @@ header .sticky .message-btn {
     margin-bottom: 11px;
 }
 
-.sidebar.range :where(.css-dev-only-do-not-override-j9bb5n).ant-slider .ant-slider-rail {
+.sidebar.range .ant-slider .ant-slider-rail {
     background-color: #e9e9e9;
 }
 
-.sidebar.range :where(.css-dev-only-do-not-override-j9bb5n).ant-slider:hover .ant-slider-track,
-.sidebar.range :where(.css-dev-only-do-not-override-j9bb5n).ant-slider .ant-slider-track {
+.sidebar.range .ant-slider:hover .ant-slider-track,
+.sidebar.range .ant-slider .ant-slider-track {
     background-color: #ff7c5b;
 }
 
-.sidebar.range :where(.css-dev-only-do-not-override-j9bb5n).ant-slider .ant-slider-handle::after {
+.sidebar.range .ant-slider .ant-slider-handle::after {
     background-color: #ff7c5b;
     box-shadow: none;
     width: 15px;
     height: 15px;
 }
 
-.sidebar.range :where(.css-dev-only-do-not-override-j9bb5n).ant-slider-horizontal .ant-slider-handle {
+.sidebar.range .ant-slider-horizontal .ant-slider-handle {
     inset-block-start: -1px;
 }
 
-.sidebar.range :where(.css-dev-only-do-not-override-j9bb5n).ant-slider:hover .ant-slider-handle::after,
-.sidebar.range :where(.css-dev-only-do-not-override-j9bb5n).ant-slider .ant-slider-handle:hover::after,
-:where(.css-dev-only-do-not-override-j9bb5n).ant-slider .ant-slider-handle:active::after,
-:where(.css-dev-only-do-not-override-j9bb5n).ant-slider .ant-slider-handle:focus::after {
+.sidebar.range .ant-slider:hover .ant-slider-handle::after,
+.sidebar.range .ant-slider .ant-slider-handle:hover::after,
+.ant-slider .ant-slider-handle:active::after,
+.ant-slider .ant-slider-handle:focus::after {
     box-shadow: none;
 }
 
-.sidebar.review :where(.css-dev-only-do-not-override-j9bb5n).ant-rate {
+.sidebar.review .ant-rate {
     font-size: 16px;
     color: #ffab01;
 }
@@ -2811,20 +2811,20 @@ header .sticky .message-btn {
 
 
 
-.list-grid-main :where(.css-dev-only-do-not-override-j9bb5n).ant-tabs-top>.ant-tabs-nav::before {
+.list-grid-main .ant-tabs-top>.ant-tabs-nav::before {
     border: none;
 }
 
-.list-grid-main :where(.css-dev-only-do-not-override-j9bb5n).ant-tabs .ant-tabs-ink-bar {
+.list-grid-main .ant-tabs .ant-tabs-ink-bar {
     display: none;
 }
 
-.list-grid-main :where(.css-dev-only-do-not-override-j9bb5n).ant-tabs>.ant-tabs-nav .ant-tabs-nav-wrap {
+.list-grid-main .ant-tabs>.ant-tabs-nav .ant-tabs-nav-wrap {
     justify-content: end;
     margin-bottom: calc(40px - 16px);
 }
 
-.list-grid-main :where(.css-dev-only-do-not-override-j9bb5n).ant-tabs .ant-tabs-tab-btn {
+.list-grid-main .ant-tabs .ant-tabs-tab-btn {
     position: relative;
     display: inline-block;
     width: 50px;
@@ -2841,12 +2841,12 @@ header .sticky .message-btn {
     text-align: center;
 }
 
-.list-grid-main :where(.css-dev-only-do-not-override-j9bb5n).ant-tabs .ant-tabs-tab+.ant-tabs-tab {
+.list-grid-main .ant-tabs .ant-tabs-tab+.ant-tabs-tab {
     margin: 0;
 }
 
-.list-grid-main :where(.css-dev-only-do-not-override-j9bb5n).ant-tabs .ant-tabs-tab-btn:hover,
-.list-grid-main :where(.css-dev-only-do-not-override-j9bb5n).ant-tabs .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+.list-grid-main .ant-tabs .ant-tabs-tab-btn:hover,
+.list-grid-main .ant-tabs .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
     color: #fff;
     background-color: #ff7c5b;
     box-shadow: rgba(255, 124, 91, 0.30) 0px 5px 15px;
