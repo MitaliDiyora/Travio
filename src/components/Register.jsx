@@ -5,29 +5,29 @@ import { Link } from 'react-router-dom'
 
 const Register = () => {
 
-        const name = useRef()
-        const email = useRef()
-        const password = useRef()
-        const confirm_password = useRef()
+    const name = useRef()
+    const email = useRef()
+    const password = useRef()
+    const confirm_password = useRef()
 
-    const handleclick =(e) => {
+    const handleclick = (e) => {
         e.preventDefault()
 
-       const obj ={
-           "name" : name.current.value,
-           "email" : email.current.value,
-           "password" : password.current.value,
-           "confirm_password" : confirm_password.current.value
-       }
-       console.log(obj);
-       axios.post('http://localhost:4000/insert' , obj)
-       .then(function (response) {
-           console.log(response);
-       })
-       .catch(function (error) {
-           console.log(error);
-       })
-   }
+        const obj = {
+            "name": name.current.value,
+            "email": email.current.value,
+            "password": password.current.value,
+            "confirm_password": confirm_password.current.value
+        }
+        console.log(obj);
+        axios.post('http://localhost:4000/insert', obj)
+            .then(function (response) {
+                console.log(response);
+            })
+            .catch(function (error) {
+                console.log(error);
+            })
+    }
     return (
         <>
 
@@ -48,7 +48,7 @@ const Register = () => {
                         <p></p>
                     </div>
 
-                    <form method='post'  onSubmit={handleclick}>
+                    <form method='post' onSubmit={handleclick}>
                         <div className="form-group">
                             <input type="text" ref={name} name='name' required />
                             <label htmlFor="">Name</label>
@@ -71,8 +71,8 @@ const Register = () => {
                             <label htmlFor="">I accept <Link>terms</Link> and <Link>conditions</Link> and general policy</label>
                         </div>
 
-                        <div className="submit-button">
-                            <input type="submit" value="Sign Up" className='theme-btn' />
+                        <div className="message-btn">
+                            <button type="submit" className="theme-btn"><Link to="/">Submit</Link></button>
                         </div>
                     </form>
                     <p>
