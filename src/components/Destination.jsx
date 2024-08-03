@@ -5,19 +5,19 @@ import { Link } from 'react-router-dom'
 const Destination = () => {
     const destination = [
         {
-            img: '/assets/images/place-1.jpg',
+            img: 'assets/images/place-1.jpg',
             name: 'New York City'
         },
         {
-            img: '/assets/images/place-2.jpg',
+            img: 'assets/images/place-2.jpg',
             name: 'Norway Lake'
         },
         {
-            img: '/assets/images/place-3.jpg',
+            img: 'assets/images/place-3.jpg',
             name: 'Affrican Park'
         },
         {
-            img: '/assets/images/place-4.jpg',
+            img: 'assets/images/place-4.jpg',
             name: 'Vietnam'
         }
     ]
